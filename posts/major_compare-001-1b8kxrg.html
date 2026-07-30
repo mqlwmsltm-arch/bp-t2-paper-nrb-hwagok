@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>님들아 이거 왜 막힌거임? 데모 유저만 봤던 풍경과 패치로 지워진 글리치에 대한 장대한 삽질기</title>
+  <link rel="canonical" href="https://paper.nrb-hwagok.xyz/posts/major_compare-001-1b8kxrg.html">
+  <style>
+    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+    p { margin: 0 0 1em; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html">← 목록으로 돌아가기</a>
+  </header>
+  <main>
+    <h1>님들아 이거 왜 막힌거임? 데모 유저만 봤던 풍경과 패치로 지워진 글리치에 대한 장대한 삽질기</h1>
+    <article>
+      <p>다크소울 1편 데모 버전, 보통 사람들은 '아, 미구현 지역이었구나' 하고 넘어가곤 하잖아요? 근데 스피드러너 입장에서 그 데이터를 까보면 전혀 다른 이야기가 펼쳐집니다. 그 '미완성'이라는 꼬리표 아래에, 사실은 프레임 단위의 완벽한 '지름길'이 숨겨져 있었다는 사실, 알고 계셨나요? ^^</p>
+<p>## 데모 1.0의 마지막 숨결, '바퀴 스킵'의 조건</p>
+<p>제가 연구하던 시점은 패치 1.04 직후였어요. 그리고 여기서 가장 큰 갈등이 생겼습니다. 데모 버전(2011년 9월)에서만 작동하던 '아노르 론도 바퀴데몬 스킵'이 본판에서는 어떻게 재현되는가 하는 거죠.<br>결론부터 말씀드리면 일반적으로는 **재현 불가능**입니다. 하지만 저희 같은 '데이터 잉여충'들 사이에서는 다른 이야기가 오갑니다. PS3판 30프레임 기준 특정 입력(14프레임 이내 점프 입력)에서 **잔상 데이터가 남는** 현상이 발견되었거든요.<br>이게 중요한 게 뭐냐면, 마치 <a href="https://top-seocho-karaoke.xyz/reviews.html" target="_blank" rel="noopener noreferrer">서초 노래방</a>에서 기기를 고를 때 금영과 TJ의 MR 차이를 비교하듯 **초기 선택(데이터 버전)이 후속 플레이의 장기적인 쾌적함을 완전히 결정한다**는 점입니다.</p>
+<p>## 왜 1.04 패치가 모든 걸 망가뜨렸나</p>
+<p>일반론으로는 '낙사 판정 수정' 또는 '충돌체 버그 수정'이라고 알려져 있죠. 근데 실제 데이터를 까보면 이야기가 달라요. 프롬은 **의도적으로** 특정 콜리전 데이터를 데모 데이터에서 삭제했습니다. 맵 데이터 자체는 그대로인데, 캐릭터가 '바닥'이라고 인식하는 체크포인트를 중간에 하나 더 넣어버린 거예요.<br>그래서 데모 시절에 쓰던 '특정 벽 뚫기'가 적용이 안 됩니다. <a href="https://ko.wikipedia.org/wiki/%EB%85%B8%EB%9E%98%EB%B0%A9" target="_blank" rel="noopener noreferrer">위키백과 노래방 역사</a>에 보면 초기 노래방 기계의 반주와 지금의 MR이 차이가 나는 이유가 간략히 설명되어 있더군요. 그걸 게임 패치에 대입해보면 이해가 확 됩니다. **하위 호환성을 깨먹은 패치**였다는 거죠.</p>
+<p>### 단기 효과 vs 장기 효과<br>*   **단기 (데모 당시):** 누구나 쉽게 따라 할 수 있는 '지름길'이 존재했습니다. 아노르 론도 진입 시간이 40% 단축됐어요.<br>*   **장기 (현재 패치):** 그 지름길은 막혔지만, **프레임 단위의 새로운 룰**이 생겼습니다. 14프레임 점프 입력이 가능한가? 콜리전 체크를 무시하는 '링글' 상태를 얼마나 오래 유지하느냐? 이런 새로운 싸움이 시작된 거죠.</p>
+<p>이게 장기 선택의 후속 효과라는 건데요. 처음에는 불편해 보이지만, 그 안에서 새로운 '최적화'를 찾는 재미가 저는 쏠쏠하더라고요. 뭐, 저는 그냥 옆에서 이런 연구하는 거 구경하는 게 더 재밌긴 합니다만. ^^ 여러분은 어떻게 생각하세요?</p>
+    </article>
+  </main>
+</body>
+</html>

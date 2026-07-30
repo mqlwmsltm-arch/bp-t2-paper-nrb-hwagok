@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://paper.nrb-hwagok.xyz/sitemap.xml
+Sitemap: https://paper.nrb-hwagok.xyz/sitemap-pages.xml
