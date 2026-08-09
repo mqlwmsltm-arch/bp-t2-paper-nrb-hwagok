@@ -1,552 +1,550 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bpaas-design-system" content="editorial-apple">
-    <meta name="bpaas-design-theme" content="kr-ledger-sepia">
-    <title>업종별 비교 및 분석 장부 — 유흥 이용 가이드</title>
-    <meta name="description" content="서울 내 주요 12개 업종(텐프로, 쩜오, 셔츠룸, 하이퍼블릭, 풀싸롱 등)의 시스템 차이와 비용 구조를 투명하게 대조합니다. 정보 불균형을 해소하는 독립적 비교 분석.">
-    <meta name="keywords" content="유흥 이용 가이드, 셔츠룸, 룸싸롱, 텐프로, 텐카페, 쩜오, 하이퍼블릭, 풀싸롱, 가라오케, 노래방, 비즈니스클럽, 마사지, 펍">
-    <link rel="canonical" href="https://paper.nrb-hwagok.xyz/blog-2.html">
-    
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="업종별 비교 및 분석 장부 — 유흥 이용 가이드">
-    <meta property="og:description" content="서울 내 주요 12개 업종(텐프로, 쩜오, 셔츠룸, 하이퍼블릭, 풀싸롱 등)의 시스템 차이와 비용 구조를 투명하게 대조합니다. 정보 불균형을 해소하는 독립적 비교 분석.">
-    <meta property="og:url" content="https://paper.nrb-hwagok.xyz/blog-2.html">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>업종별 비교 및 분석 장부 — 유흥 이용 가이드</title>
+ <meta name="description" content="서울 내 주요 12개 업종(텐프로, 쩜오, 셔츠룸, 하이퍼블릭, 풀싸롱 등)의 시스템 차이와 비용 구조를 투명하게 대조합니다. 정보 불균형을 해소하는 독립적 비교 분석.">
+ <meta name="keywords" content="유흥 이용 가이드, 셔츠룸, 룸싸롱, 텐프로, 텐카페, 쩜오, 하이퍼블릭, 풀싸롱, 가라오케, 노래방, 비즈니스클럽, 마사지, 펍">
+ <link rel="canonical" href="https://paper.nrb-hwagok.xyz/blog-2.html">
+ 
+ <!-- Open Graph -->
+ <meta property="og:type" content="website">
+ <meta property="og:title" content="업종별 비교 및 분석 장부 — 유흥 이용 가이드">
+ <meta property="og:description" content="서울 내 주요 12개 업종(텐프로, 쩜오, 셔츠룸, 하이퍼블릭, 풀싸롱 등)의 시스템 차이와 비용 구조를 투명하게 대조합니다. 정보 불균형을 해소하는 독립적 비교 분석.">
+ <meta property="og:url" content="https://paper.nrb-hwagok.xyz/blog-2.html">
 
-    <style>
-        /* CSS Reset & Variables */
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+ <style>
+ /* CSS Reset & Variables */
+ * {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ }
 
-        :root {
-            --bg-ledger: #f9f6f0;
-            --bg-card: #f3ede2;
-            --text-primary: #1e1b18;
-            --text-muted: #5c544c;
-            --border-ledger: #d1c7bd;
-            --accent-red: #9e2a2b;
-            --accent-ink: #1f3a52;
-            --font-serif: "Georgia", "Apple SD Gothic Neo", "Malgun Gothic", serif;
-            --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            --spacing-unit: 8px;
-        }
+ :root {
+ --bg-ledger: #f9f6f0;
+ --bg-card: #f3ede2;
+ --text-primary: #1e1b18;
+ --text-muted: #5c544c;
+ --border-ledger: #d1c7bd;
+ --accent-red: #9e2a2b;
+ --accent-ink: #1f3a52;
+ --font-serif: "Georgia", "Apple SD Gothic Neo", "Malgun Gothic", serif;
+ --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+ --spacing-unit: 8px;
+ }
 
-        body {
-            background-color: var(--bg-ledger);
-            color: var(--text-primary);
-            font-family: var(--font-sans);
-            line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
-            padding: 0;
-        }
+ body {
+ background-color: var(--bg-ledger);
+ color: var(--text-primary);
+ font-family: var(--font-sans);
+ line-height: 1.6;
+ -webkit-font-smoothing: antialiased;
+ padding: 0;
+ }
 
-        /* Layout Container */
-        .v-btn-n4yu {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 0 calc(var(--spacing-unit) * 3);
-        }
+ /* Layout Container */
+ .v-btn-n4yu {
+ max-width: 1100px;
+ margin: 0 auto;
+ padding: 0 calc(var(--spacing-unit) * 3);
+ }
 
-        /* Typography Helper */
-        .r-hero-uwk7-text {
-            font-family: var(--font-serif);
-            font-size: 3.5rem;
-            line-height: 1.15;
-            font-weight: 700;
-            letter-spacing: -0.03em;
-            color: var(--text-primary);
-            margin-bottom: calc(var(--spacing-unit) * 3);
-        }
+ /* Typography Helper */
+ .r-hero-uwk7-text {
+ font-family: var(--font-serif);
+ font-size: 3.5rem;
+ line-height: 1.15;
+ font-weight: 700;
+ letter-spacing: -0.03em;
+ color: var(--text-primary);
+ margin-bottom: calc(var(--spacing-unit) * 3);
+ }
 
-        @media (max-width: 768px) {
-            .r-hero-uwk7-text {
-                font-size: 2.2rem;
-            }
-        }
+ @media (max-width: 768px) {
+ .r-hero-uwk7-text {
+ font-size: 2.2rem;
+ }
+ }
 
-        /* Header & Navigation */
-        header {
-            border-bottom: 2px solid var(--text-primary);
-            padding: calc(var(--spacing-unit) * 3) 0;
-            margin-bottom: calc(var(--spacing-unit) * 6);
-        }
+ /* Header & Navigation */
+ header {
+ border-bottom: 2px solid var(--text-primary);
+ padding: calc(var(--spacing-unit) * 3) 0;
+ margin-bottom: calc(var(--spacing-unit) * 6);
+ }
 
-        .q-item-axwm-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: calc(var(--spacing-unit) * 2);
-        }
+ .q-item-axwm-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+ gap: calc(var(--spacing-unit) * 2);
+ }
 
-        .brand-logo {
-            font-family: var(--font-serif);
-            font-size: 1.5rem;
-            font-weight: 800;
-            text-decoration: none;
-            color: var(--text-primary);
-            letter-spacing: -0.02em;
-            border-bottom: 2px solid var(--accent-red);
-        }
+ .brand-logo {
+ font-family: var(--font-serif);
+ font-size: 1.5rem;
+ font-weight: 800;
+ text-decoration: none;
+ color: var(--text-primary);
+ letter-spacing: -0.02em;
+ border-bottom: 2px solid var(--accent-red);
+ }
 
-        .n-list-rnnr {
-            display: flex;
-            list-style: none;
-            gap: calc(var(--spacing-unit) * 3);
-        }
+ .n-list-rnnr {
+ display: flex;
+ list-style: none;
+ gap: calc(var(--spacing-unit) * 3);
+ }
 
-        .n-list-rnnr a {
-            text-decoration: none;
-            color: var(--text-muted);
-            font-weight: 600;
-            font-size: 0.95rem;
-            transition: color 0.2s;
-        }
+ .n-list-rnnr a {
+ text-decoration: none;
+ color: var(--text-muted);
+ font-weight: 600;
+ font-size: 0.95rem;
+ transition: color 0.2s;
+ }
 
-        .n-list-rnnr a:hover, .n-list-rnnr a.active {
-            color: var(--text-primary);
-            border-bottom: 1px solid var(--text-primary);
-        }
+ .n-list-rnnr a:hover, .n-list-rnnr a.active {
+ color: var(--text-primary);
+ border-bottom: 1px solid var(--text-primary);
+ }
 
-        .q-btn-1vzl {
-            background-color: var(--text-primary);
-            color: var(--bg-ledger);
-            padding: calc(var(--spacing-unit) * 1.5) calc(var(--spacing-unit) * 3);
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 0.9rem;
-            border-radius: 0;
-            transition: background-color 0.2s;
-            display: inline-block;
-        }
+ .q-btn-1vzl {
+ background-color: var(--text-primary);
+ color: var(--bg-ledger);
+ padding: calc(var(--spacing-unit) * 1.5) calc(var(--spacing-unit) * 3);
+ text-decoration: none;
+ font-weight: 600;
+ font-size: 0.9rem;
+ border-radius: 0;
+ transition: background-color 0.2s;
+ display: inline-block;
+ }
 
-        .q-btn-1vzl:hover {
-            background-color: var(--accent-red);
-        }
+ .q-btn-1vzl:hover {
+ background-color: var(--accent-red);
+ }
 
-        /* Responsive Burger Menu (Mobile Toggle Placeholder) */
-        .q-head-n808-toggle {
-            display: none;
-            background: none;
-            border: none;
-            font-size: 1.5rem;
-            cursor: pointer;
-            color: var(--text-primary);
-        }
+ /* Responsive Burger Menu (Mobile Toggle Placeholder) */
+ .q-head-n808-toggle {
+ display: none;
+ background: none;
+ border: none;
+ font-size: 1.5rem;
+ cursor: pointer;
+ color: var(--text-primary);
+ }
 
-        @media (max-width: 768px) {
-            .n-list-rnnr {
-                display: none;
-                width: 100%;
-                flex-direction: column;
-                gap: var(--spacing-unit);
-                padding-top: var(--spacing-unit);
-            }
-            .n-list-rnnr.active {
-                display: flex;
-            }
-            .q-head-n808-toggle {
-                display: block;
-            }
-        }
+ @media (max-width: 768px) {
+ .n-list-rnnr {
+ display: none;
+ width: 100%;
+ flex-direction: column;
+ gap: var(--spacing-unit);
+ padding-top: var(--spacing-unit);
+ }
+ .n-list-rnnr.active {
+ display: flex;
+ }
+ .q-head-n808-toggle {
+ display: block;
+ }
+ }
 
-        /* Section Layouts */
-        .section-title {
-            font-family: var(--font-serif);
-            font-size: 1.8rem;
-            margin-bottom: calc(var(--spacing-unit) * 3);
-            border-bottom: 1px solid var(--text-primary);
-            padding-bottom: var(--spacing-unit);
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
-        }
+ /* Section Layouts */
+ .section-title {
+ font-family: var(--font-serif);
+ font-size: 1.8rem;
+ margin-bottom: calc(var(--spacing-unit) * 3);
+ border-bottom: 1px solid var(--text-primary);
+ padding-bottom: var(--spacing-unit);
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-end;
+ }
 
-        .section-subtitle {
-            font-size: 0.9rem;
-            color: var(--accent-red);
-            text-transform: uppercase;
-            font-family: var(--font-sans);
-            font-weight: bold;
-        }
+ .section-subtitle {
+ font-size: 0.9rem;
+ color: var(--accent-red);
+ text-transform: uppercase;
+ font-family: var(--font-sans);
+ font-weight: bold;
+ }
 
-        /* Ledger Table Grid */
-        .ledger-container {
-            margin-bottom: calc(var(--spacing-unit) * 8);
-            overflow-x: auto;
-        }
+ /* Ledger Table Grid */
+ .ledger-container {
+ margin-bottom: calc(var(--spacing-unit) * 8);
+ overflow-x: auto;
+ }
 
-        .ledger-table {
-            width: 100%;
-            border-collapse: collapse;
-            text-align: left;
-            font-size: 0.95rem;
-            min-width: 600px;
-        }
+ .ledger-table {
+ width: 100%;
+ border-collapse: collapse;
+ text-align: left;
+ font-size: 0.95rem;
+ min-width: 600px;
+ }
 
-        .ledger-table th, .ledger-table td {
-            padding: calc(var(--spacing-unit) * 2);
-            border-bottom: 1px solid var(--border-ledger);
-            vertical-align: top;
-        }
+ .ledger-table th, .ledger-table td {
+ padding: calc(var(--spacing-unit) * 2);
+ border-bottom: 1px solid var(--border-ledger);
+ vertical-align: top;
+ }
 
-        .ledger-table th {
-            background-color: var(--bg-card);
-            font-weight: 700;
-            color: var(--text-primary);
-            border-top: 2px solid var(--text-primary);
-            border-bottom: 2px solid var(--text-primary);
-            font-family: var(--font-serif);
-        }
+ .ledger-table th {
+ background-color: var(--bg-card);
+ font-weight: 700;
+ color: var(--text-primary);
+ border-top: 2px solid var(--text-primary);
+ border-bottom: 2px solid var(--text-primary);
+ font-family: var(--font-serif);
+ }
 
-        .ledger-table tr:hover {
-            background-color: rgba(217, 207, 193, 0.2);
-        }
+ .ledger-table tr:hover {
+ background-color: rgba(217, 207, 193, 0.2);
+ }
 
-        .ledger-badge {
-            display: inline-block;
-            padding: 2px 6px;
-            font-size: 0.75rem;
-            font-weight: bold;
-            text-transform: uppercase;
-            border: 1px solid currentColor;
-        }
+ .ledger-badge {
+ display: inline-block;
+ padding: 2px 6px;
+ font-size: 0.75rem;
+ font-weight: bold;
+ text-transform: uppercase;
+ border: 1px solid currentColor;
+ }
 
-        .badge-high { color: var(--accent-red); }
-        .badge-mid { color: var(--accent-ink); }
-        .badge-low { color: var(--text-muted); }
+ .badge-high { color: var(--accent-red); }
+ .badge-mid { color: var(--accent-ink); }
+ .badge-low { color: var(--text-muted); }
 
-        /* Edgy Content Cards */
-        .grid-cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: calc(var(--spacing-unit) * 3);
-            margin-bottom: calc(var(--spacing-unit) * 8);
-        }
+ /* Edgy Content Cards */
+ .grid-cards {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+ gap: calc(var(--spacing-unit) * 3);
+ margin-bottom: calc(var(--spacing-unit) * 8);
+ }
 
-        .card-editorial {
-            background-color: var(--bg-card);
-            border: 1px solid var(--border-ledger);
-            padding: calc(var(--spacing-unit) * 4);
-            position: relative;
-        }
+ .card-editorial {
+ background-color: var(--bg-card);
+ border: 1px solid var(--border-ledger);
+ padding: calc(var(--spacing-unit) * 4);
+ position: relative;
+ }
 
-        .card-editorial::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 4px;
-            background-color: var(--text-primary);
-        }
+ .card-editorial::before {
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 4px;
+ background-color: var(--text-primary);
+ }
 
-        .card-editorial.warning::before {
-            background-color: var(--accent-red);
-        }
+ .card-editorial.warning::before {
+ background-color: var(--accent-red);
+ }
 
-        .card-editorial h3 {
-            font-family: var(--font-serif);
-            font-size: 1.4rem;
-            margin-bottom: calc(var(--spacing-unit) * 2);
-            color: var(--text-primary);
-        }
+ .card-editorial h3 {
+ font-family: var(--font-serif);
+ font-size: 1.4rem;
+ margin-bottom: calc(var(--spacing-unit) * 2);
+ color: var(--text-primary);
+ }
 
-        .card-editorial p {
-            font-size: 0.95rem;
-            color: var(--text-muted);
-            margin-bottom: calc(var(--spacing-unit) * 2);
-        }
+ .card-editorial p {
+ font-size: 0.95rem;
+ color: var(--text-muted);
+ margin-bottom: calc(var(--spacing-unit) * 2);
+ }
 
-        /* FAQ Section */
-        .faq-accordion {
-            margin-bottom: calc(var(--spacing-unit) * 8);
-        }
+ /* FAQ Section */
+ .faq-accordion {
+ margin-bottom: calc(var(--spacing-unit) * 8);
+ }
 
-        .faq-item {
-            border-bottom: 1px solid var(--border-ledger);
-            padding: calc(var(--spacing-unit) * 3) 0;
-        }
+ .faq-item {
+ border-bottom: 1px solid var(--border-ledger);
+ padding: calc(var(--spacing-unit) * 3) 0;
+ }
 
-        .faq-question {
-            font-family: var(--font-serif);
-            font-size: 1.2rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            margin-bottom: var(--spacing-unit);
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+ .faq-question {
+ font-family: var(--font-serif);
+ font-size: 1.2rem;
+ font-weight: 700;
+ color: var(--text-primary);
+ margin-bottom: var(--spacing-unit);
+ cursor: pointer;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
 
-        .faq-answer {
-            font-size: 0.95rem;
-            color: var(--text-muted);
-            padding-left: var(--spacing-unit);
-        }
+ .faq-answer {
+ font-size: 0.95rem;
+ color: var(--text-muted);
+ padding-left: var(--spacing-unit);
+ }
 
-        /* Footer */
-        footer {
-            border-top: 2px solid var(--text-primary);
-            padding: calc(var(--spacing-unit) * 6) 0;
-            font-size: 0.85rem;
-            color: var(--text-muted);
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: calc(var(--spacing-unit) * 3);
-        }
+ /* Footer */
+ footer {
+ border-top: 2px solid var(--text-primary);
+ padding: calc(var(--spacing-unit) * 6) 0;
+ font-size: 0.85rem;
+ color: var(--text-muted);
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ gap: calc(var(--spacing-unit) * 3);
+ }
 
-        .footer-brand {
-            font-family: var(--font-serif);
-            font-weight: bold;
-            color: var(--text-primary);
-        }
+ .footer-brand {
+ font-family: var(--font-serif);
+ font-weight: bold;
+ color: var(--text-primary);
+ }
 
-        /* Callout Text */
-        .callout-box {
-            background-color: #1e1b18;
-            color: #f9f6f0;
-            padding: calc(var(--spacing-unit) * 5);
-            margin-bottom: calc(var(--spacing-unit) * 8);
-            border-left: 8px solid var(--accent-red);
-        }
+ /* Callout Text */
+ .callout-box {
+ background-color: #1e1b18;
+ color: #f9f6f0;
+ padding: calc(var(--spacing-unit) * 5);
+ margin-bottom: calc(var(--spacing-unit) * 8);
+ border-left: 8px solid var(--accent-red);
+ }
 
-        .callout-box h4 {
-            font-family: var(--font-serif);
-            font-size: 1.5rem;
-            margin-bottom: var(--spacing-unit);
-        }
+ .callout-box h4 {
+ font-family: var(--font-serif);
+ font-size: 1.5rem;
+ margin-bottom: var(--spacing-unit);
+ }
 
-        .callout-box p {
-            font-size: 0.95rem;
-            opacity: 0.9;
-        }
-    </style>
+ .callout-box p {
+ font-size: 0.95rem;
+ opacity: 0.9;
+ }
+ </style>
   <meta name="twitter:card" content="summary">
 </head>
 <body>
 
-    <div class="v-btn-n4yu">
-        
-        <!-- Header & Navigation -->
-        <header>
-            <div class="q-item-axwm-row">
-                <a href="https://paper.nrb-hwagok.xyz" class="brand-logo">THE LEDGER</a>
-                <button class="q-head-n808-toggle" onclick="toggleMenu()" aria-label="메뉴 토글">☰</button>
-                <nav class="n-list-rnnr" id="nav-menu">
-                    <li><a href="https://paper.nrb-hwagok.xyz">홈</a></li>
-                    <li><a href="https://paper.nrb-hwagok.xyz" class="active">업종별 비교</a></li>
-                    <li><a href="https://paper.nrb-hwagok.xyz">이용 가이드</a></li>
-                    <li><a href="https://paper.nrb-hwagok.xyz">주의사항</a></li>
-                </nav>
-                <a href="https://paper.nrb-hwagok.xyz" class="q-btn-1vzl">가이드 다운로드</a>
-            </div>
-        </header>
+ <div class="v-btn-n4yu">
+ 
+ <!-- Header & Navigation -->
+ <header>
+ <div class="q-item-axwm-row">
+ <a href="https://paper.nrb-hwagok.xyz" class="brand-logo">THE LEDGER</a>
+ <button class="q-head-n808-toggle" onclick="toggleMenu()" aria-label="메뉴 토글">☰</button>
+ <nav class="n-list-rnnr" id="nav-menu">
+ <li><a href="https://paper.nrb-hwagok.xyz">홈</a></li>
+ <li><a href="https://paper.nrb-hwagok.xyz" class="active">업종별 비교</a></li>
+ <li><a href="https://paper.nrb-hwagok.xyz">이용 가이드</a></li>
+ <li><a href="https://paper.nrb-hwagok.xyz">주의사항</a></li>
+ </nav>
+ <a href="https://paper.nrb-hwagok.xyz" class="q-btn-1vzl">가이드 다운로드</a>
+ </div>
+ </header>
 
-        <!-- Hero Section -->
-        <section style="margin-bottom: calc(var(--spacing-unit) * 8);">
-            <div class="r-hero-uwk7-text">
-                포장된 환상을 걷어낸<br>
-                서울 유흥 업종별 객관적 비교 장부
-            </div>
-            <p style="font-size: 1.15rem; color: var(--text-muted); max-width: 800px; margin-bottom: calc(var(--spacing-unit) * 4);">
-                화려한 미사여구와 허위 광고 뒤에 숨겨진 실제 시스템의 차이를 명확히 대조합니다. 가격 구조의 투명성, 회전율의 비밀, 그리고 각 업종이 취하는 기만적인 비용 청구 방식을 독립적인 시각에서 폭로합니다.
-            </p>
-        </section>
+ <!-- Hero Section -->
+ <section style="margin-bottom: calc(var(--spacing-unit) * 8);">
+ <div class="r-hero-uwk7-text">
+ 포장된 환상을 걷어낸<br>
+ 서울 유흥 업종별 객관적 비교 장부
+ </div>
+ <p style="font-size: 1.15rem; color: var(--text-muted); max-width: 800px; margin-bottom: calc(var(--spacing-unit) * 4);">
+ 화려한 미사여구와 허위 광고 뒤에 숨겨진 실제 시스템의 차이를 명확히 대조합니다. 가격 구조의 투명성, 회전율의 비밀, 그리고 각 업종이 취하는 기만적인 비용 청구 방식을 독립적인 시각에서 폭로합니다.
+ </p>
+ </section>
 
-        <!-- Callout: Bold Opinions -->
-        <section class="callout-box">
-            <h4>독립 가이드의 단호한 선언</h4>
-            <p>
-                우리는 특정 업소를 광고하거나 이익을 공유하지 않습니다. 본 비교 장부는 오직 소비자가 불필요한 추가 청구(일명 '눈탱이')를 피하고 자신의 예산 범위 내에서 가장 객관적인 선택을 할 수 있도록 돕는 기준점만을 제공합니다.
-            </p>
-        </section>
+ <!-- Callout: Bold Opinions -->
+ <section class="callout-box">
+ <h4>독립 가이드의 단호한 선언</h4>
+ <p>
+ 우리는 특정 업소를 광고하거나 이익을 공유하지 않습니다. 본 비교 장부는 오직 소비자가 불필요한 추가 청구(일명 '눈탱이')를 피하고 자신의 예산 범위 내에서 가장 객관적인 선택을 할 수 있도록 돕는 기준점만을 제공합니다.
+ </p>
+ </section>
 
-        <!-- Comparison Ledger Table -->
-        <section>
-            <div class="section-title">
-                <h2>업종별 대조 장부</h2>
-                <span class="section-subtitle">Comparative Ledger</span>
-            </div>
-            
-            <div class="ledger-container">
-                <table class="ledger-table">
-                    <thead>
-                        <tr>
-                            <th>업종 분류</th>
-                            <th>핵심 운영 시스템</th>
-                            <th>비용 투명도</th>
-                            <th>시간 규정 (T/C 기준)</th>
-                            <th>소비자 리스크</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong>텐프로 / 쩜오</strong></td>
-                            <td>로테이션(묶음) 시스템 적용. 다수의 방을 동시 순회하는 구조.</td>
-                            <td><span class="ledger-badge badge-high">매우 낮음</span></td>
-                            <td>단위 시간당 고정 묶음제 (구좌 단위 청구)</td>
-                            <td>시간 분할로 인한 실제 대면 시간 부족, 불투명한 추가 청구율 높음.</td>
-                        </tr>
-                        <tr>
-                            <td><strong>텐카페</strong></td>
-                            <td>로테이션 기반이나 쩜오 대비 상대적으로 완화된 대기 시간.</td>
-                            <td><span class="ledger-badge badge-mid">낮음</span></td>
-                            <td>시간당 묶음 청구 및 밴드 비용 별도</td>
-                            <td>중복 지정을 통한 비용 왜곡 가능성 상존.</td>
-                        </tr>
-                        <tr>
-                            <td><strong>셔츠룸 / 하이퍼블릭</strong></td>
-                            <td>1:1 고정 시스템 지향. 초반 셔츠 교체 이벤트 타임 존재.</td>
-                            <td><span class="ledger-badge badge-mid">보통</span></td>
-                            <td>60분 ~ 70분 고정 타임제</td>
-                            <td>연장 유도를 위해 정해진 시간을 인위적으로 단축하는 꼼수 주의.</td>
-                        </tr>
-                        <tr>
-                            <td><strong>풀싸롱</strong></td>
-                            <td>이동형 올인원 시스템. 정해진 시간표에 따라 진행.</td>
-                            <td><span class="ledger-badge badge-high">비교적 명확</span></td>
-                            <td>파트별 정액 요금제 구성</td>
-                            <td>초기 제시된 정액 요금 외에 구좌 추가 비용 발생 여부 확인 필수.</td>
-                        </tr>
-                        <tr>
-                            <td><strong>가라오케 / 노래방</strong></td>
-                            <td>시간당 룸 대여료 및 세트 주류 판매 중심. 자유로운 분위기.</td>
-                            <td><span class="ledger-badge badge-high">높음</span></td>
-                            <td>시간 단위 연장 (주류 추가 연계)</td>
-                            <td>기본 주류 세트 외에 불필요한 음료 및 안주 강매 유도.</td>
-                        </tr>
-                        <tr>
-                            <td><strong>비즈니스클럽</strong></td>
-                            <td>전통적인 비즈니스 접대 목적의 룸 시스템.</td>
-                            <td><span class="ledger-badge badge-low">낮음</span></td>
-                            <td>시간 제한 없음 혹은 구좌제 운영</td>
-                            <td>접대 상대방의 만족도를 빌미로 과도한 고급 양주 추가 유도.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
+ <!-- Comparison Ledger Table -->
+ <section>
+ <div class="section-title">
+ <h2>업종별 대조 장부</h2>
+ <span class="section-subtitle">Comparative Ledger</span>
+ </div>
+ 
+ <div class="ledger-container">
+ <table class="ledger-table">
+ <thead>
+ <tr>
+ <th>업종 분류</th>
+ <th>핵심 운영 시스템</th>
+ <th>비용 투명도</th>
+ <th>시간 규정 (T/C 기준)</th>
+ <th>소비자 리스크</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td><strong>텐프로 / 쩜오</strong></td>
+ <td>로테이션(묶음) 시스템 적용. 다수의 방을 동시 순회하는 구조.</td>
+ <td><span class="ledger-badge badge-high">매우 낮음</span></td>
+ <td>단위 시간당 고정 묶음제 (구좌 단위 청구)</td>
+ <td>시간 분할로 인한 실제 대면 시간 부족, 불투명한 추가 청구율 높음.</td>
+ </tr>
+ <tr>
+ <td><strong>텐카페</strong></td>
+ <td>로테이션 기반이나 쩜오 대비 상대적으로 완화된 대기 시간.</td>
+ <td><span class="ledger-badge badge-mid">낮음</span></td>
+ <td>시간당 묶음 청구 및 밴드 비용 별도</td>
+ <td>중복 지정을 통한 비용 왜곡 가능성 상존.</td>
+ </tr>
+ <tr>
+ <td><strong>셔츠룸 / 하이퍼블릭</strong></td>
+ <td>1:1 고정 시스템 지향. 초반 셔츠 교체 이벤트 타임 존재.</td>
+ <td><span class="ledger-badge badge-mid">보통</span></td>
+ <td>60분 ~ 70분 고정 타임제</td>
+ <td>연장 유도를 위해 정해진 시간을 인위적으로 단축하는 꼼수 주의.</td>
+ </tr>
+ <tr>
+ <td><strong>풀싸롱</strong></td>
+ <td>이동형 올인원 시스템. 정해진 시간표에 따라 진행.</td>
+ <td><span class="ledger-badge badge-high">비교적 명확</span></td>
+ <td>파트별 정액 요금제 구성</td>
+ <td>초기 제시된 정액 요금 외에 구좌 추가 비용 발생 여부 확인 필수.</td>
+ </tr>
+ <tr>
+ <td><strong>가라오케 / 노래방</strong></td>
+ <td>시간당 룸 대여료 및 세트 주류 판매 중심. 자유로운 분위기.</td>
+ <td><span class="ledger-badge badge-high">높음</span></td>
+ <td>시간 단위 연장 (주류 추가 연계)</td>
+ <td>기본 주류 세트 외에 불필요한 음료 및 안주 강매 유도.</td>
+ </tr>
+ <tr>
+ <td><strong>비즈니스클럽</strong></td>
+ <td>전통적인 비즈니스 접대 목적의 룸 시스템.</td>
+ <td><span class="ledger-badge badge-low">낮음</span></td>
+ <td>시간 제한 없음 혹은 구좌제 운영</td>
+ <td>접대 상대방의 만족도를 빌미로 과도한 고급 양주 추가 유도.</td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </section>
 
-        <!-- Deep Dive Analysis Cards -->
-        <section>
-            <div class="section-title">
-                <h2>허상을 깨는 3가지 진실</h2>
-                <span class="section-subtitle">The Stark Truths</span>
-            </div>
-            
-            <div class="grid-cards">
-                <div class="card-editorial warning">
-                    <h3>1. '저렴한 주류 세트'의 함정</h3>
-                    <p>
-                        입구에 적힌 저렴한 양주 세트 가격은 미끼에 불과합니다. 실제 청구서에는 포함되어 있지 않던 '룸 티(Room Charge)', '웨이터 팁', 그리고 1인당 추가되는 'T/C(테이블 차지)'가 곱절로 붙어 결국 예상의 두 배가 넘는 금액이 도출됩니다.
-                    </p>
-                </div>
-                <div class="card-editorial">
-                    <h3>2. 로테이션 시스템의 기만</h3>
-                    <p>
-                        상위 업종일수록 높은 비용을 지불하지만, 1:1 전담이 아닌 '로테이션(순회)' 방식을 채택합니다. 실제로 방에 머무는 시간은 전체 이용 시간의 절반 이하일 수 있어, 시간당 단가로 환산하면 극도로 비효율적인 구조가 됩니다.
-                    </p>
-                </div>
-                <div class="card-editorial warning">
-                    <h3>3. 구두 합의의 무력함</h3>
-                    <p>
-                        유흥 업소에서 발생하는 갈등의 90%는 사전에 구두로 합의한 '총액'과 최종 결제 시 '상세 내역'의 불일치에서 발생합니다. 명문화된 장부나 영수증을 사전에 요구하지 않는 한, 구두 약속은 법적인 효력을 갖기 어렵습니다.
-                    </p>
-                </div>
-            </div>
-        </section>
+ <!-- Deep Dive Analysis Cards -->
+ <section>
+ <div class="section-title">
+ <h2>허상을 깨는 3가지 진실</h2>
+ <span class="section-subtitle">The Stark Truths</span>
+ </div>
+ 
+ <div class="grid-cards">
+ <div class="card-editorial warning">
+ <h3>1. '저렴한 주류 세트'의 함정</h3>
+ <p>
+ 입구에 적힌 저렴한 양주 세트 가격은 미끼에 불과합니다. 실제 청구서에는 포함되어 있지 않던 '룸 티(Room Charge)', '웨이터 팁', 그리고 1인당 추가되는 'T/C(테이블 차지)'가 곱절로 붙어 결국 예상의 두 배가 넘는 금액이 도출됩니다.
+ </p>
+ </div>
+ <div class="card-editorial">
+ <h3>2. 로테이션 시스템의 기만</h3>
+ <p>
+ 상위 업종일수록 높은 비용을 지불하지만, 1:1 전담이 아닌 '로테이션(순회)' 방식을 채택합니다. 실제로 방에 머무는 시간은 전체 이용 시간의 절반 이하일 수 있어, 시간당 단가로 환산하면 극도로 비효율적인 구조가 됩니다.
+ </p>
+ </div>
+ <div class="card-editorial warning">
+ <h3>3. 구두 합의의 무력함</h3>
+ <p>
+ 유흥 업소에서 발생하는 갈등의 90%는 사전에 구두로 합의한 '총액'과 최종 결제 시 '상세 내역'의 불일치에서 발생합니다. 명문화된 장부나 영수증을 사전에 요구하지 않는 한, 구두 약속은 법적인 효력을 갖기 어렵습니다.
+ </p>
+ </div>
+ </div>
+ </section>
 
-        <!-- Decision Matrix -->
-        <section style="margin-bottom: calc(var(--spacing-unit) * 8);">
-            <div class="section-title">
-                <h2>상황별 최적 대안 매트릭스</h2>
-                <span class="section-subtitle">Decision Matrix</span>
-            </div>
-            
-            <div style="background-color: var(--bg-card); padding: calc(var(--spacing-unit) * 4); border: 1px solid var(--border-ledger);">
-                <p style="font-weight: bold; margin-bottom: calc(var(--spacing-unit) * 2); color: var(--accent-red);">
-                    당신의 목적에 부합하는 진짜 선택지는 무엇인가?
-                </p>
-                <ul style="list-style-type: square; padding-left: calc(var(--spacing-unit) * 3); color: var(--text-muted); font-size: 0.95rem;">
-                    <li style="margin-bottom: var(--spacing-unit);">
-                        <strong>확실한 시간 보장과 가성비를 원할 때:</strong> 로테이션이 없는 하이퍼블릭이나 셔츠룸 계열이 시간당 물리적 대면 시간을 확보하기에 유리합니다.
-                    </li>
-                    <li style="margin-bottom: var(--spacing-unit);">
-                        <strong>공식적인 비즈니스 접대가 목적일 때:</strong> 격식과 공간의 분리가 최우선이라면 비용 불투명성을 감수하더라도 비즈니스클럽이나 쩜오 계열이 선택됩니다.
-                    </li>
-                    <li style="margin-bottom: var(--spacing-unit);">
-                        <strong>지인들과의 단순 유흥 및 노래가 목적일 때:</strong> 일반 가라오케나 노래방 형태가 주류 가격이 명확하여 바가지 요금의 위험이 가장 적습니다.
-                    </li>
-                </ul>
-            </div>
-        </section>
+ <!-- Decision Matrix -->
+ <section style="margin-bottom: calc(var(--spacing-unit) * 8);">
+ <div class="section-title">
+ <h2>상황별 최적 대안 매트릭스</h2>
+ <span class="section-subtitle">Decision Matrix</span>
+ </div>
+ 
+ <div style="background-color: var(--bg-card); padding: calc(var(--spacing-unit) * 4); border: 1px solid var(--border-ledger);">
+ <p style="font-weight: bold; margin-bottom: calc(var(--spacing-unit) * 2); color: var(--accent-red);">
+ 당신의 목적에 부합하는 진짜 선택지는 무엇인가?
+ </p>
+ <ul style="list-style-type: square; padding-left: calc(var(--spacing-unit) * 3); color: var(--text-muted); font-size: 0.95rem;">
+ <li style="margin-bottom: var(--spacing-unit);">
+ <strong>확실한 시간 보장과 가성비를 원할 때:</strong> 로테이션이 없는 하이퍼블릭이나 셔츠룸 계열이 시간당 물리적 대면 시간을 확보하기에 유리합니다.
+ </li>
+ <li style="margin-bottom: var(--spacing-unit);">
+ <strong>공식적인 비즈니스 접대가 목적일 때:</strong> 격식과 공간의 분리가 최우선이라면 비용 불투명성을 감수하더라도 비즈니스클럽이나 쩜오 계열이 선택됩니다.
+ </li>
+ <li style="margin-bottom: var(--spacing-unit);">
+ <strong>지인들과의 단순 유흥 및 노래가 목적일 때:</strong> 일반 가라오케나 노래방 형태가 주류 가격이 명확하여 바가지 요금의 위험이 가장 적습니다.
+ </li>
+ </ul>
+ </div>
+ </section>
 
-        <!-- FAQ Section -->
-        <section class="faq-accordion">
-            <div class="section-title">
-                <h2>자주 묻는 질문 (FAQ)</h2>
-                <span class="section-subtitle">Unfiltered Q&A</span>
-            </div>
+ <!-- FAQ Section -->
+ <section class="faq-accordion">
+ <div class="section-title">
+ <h2>자주 묻는 질문 (FAQ)</h2>
+ <span class="section-subtitle">Unfiltered Q&A</span>
+ </div>
 
-            <div class="faq-item">
-                <div class="faq-question">
-                    Q. 첫 방문 시 바가지 요금을 완벽히 피하는 방법이 있습니까?
-                    <span>▼</span>
-                </div>
-                <div class="faq-answer">
-                    가장 확실한 방법은 입점 전 'T/C, 주류, 음료, 룸비, 부가세 및 봉사료'가 모두 포함된 정액 견적을 문자나 메신저 등 기록으로 남겨두는 것입니다. 현장에서 구두로만 조율한 가격은 결제 시 왜곡될 확률이 매우 높습니다.
-                </div>
-            </div>
+ <div class="faq-item">
+ <div class="faq-question">
+ Q. 첫 방문 시 바가지 요금을 완벽히 피하는 방법이 있습니까?
+ <span>▼</span>
+ </div>
+ <div class="faq-answer">
+ 가장 확실한 방법은 입점 전 'T/C, 주류, 음료, 룸비, 부가세 및 봉사료'가 모두 포함된 정액 견적을 문자나 메신저 등 기록으로 남겨두는 것입니다. 현장에서 구두로만 조율한 가격은 결제 시 왜곡될 확률이 매우 높습니다.
+ </div>
+ </div>
 
-            <div class="faq-item">
-                <div class="faq-question">
-                    Q. 텐프로와 쩜오의 실질적인 차이는 무엇인가요?
-                    <span>▼</span>
-                </div>
-                <div class="faq-answer">
-                    가장 큰 차이는 '로테이션 묶음 수'와 '방 이동 빈도'입니다. 텐프로는 더 많은 방을 동시에 순회하기 때문에 1인당 체감 대기 시간이 더 길며, 쩜오는 상대적으로 적은 묶음으로 운영되어 한 방에 머무는 시간이 비교적 길게 유지됩니다.
-                </div>
-            </div>
+ <div class="faq-item">
+ <div class="faq-question">
+ Q. 텐프로와 쩜오의 실질적인 차이는 무엇인가요?
+ <span>▼</span>
+ </div>
+ <div class="faq-answer">
+ 가장 큰 차이는 '로테이션 묶음 수'와 '방 이동 빈도'입니다. 텐프로는 더 많은 방을 동시에 순회하기 때문에 1인당 체감 대기 시간이 더 길며, 쩜오는 상대적으로 적은 묶음으로 운영되어 한 방에 머무는 시간이 비교적 길게 유지됩니다.
+ </div>
+ </div>
 
-            <div class="faq-item">
-                <div class="faq-question">
-                    Q. 연장(연타) 시 비용은 왜 처음보다 비싸게 느껴지나요?
-                    <span>▼</span>
-                </div>
-                <div class="faq-answer">
-                    첫 세트에는 주류와 기본 안주가 할인된 가격으로 묶여 제공되지만, 연장 시에는 주류 추가가 강제되거나 할인율이 빠진 정상가 기준의 T/C와 룸비가 시간별로 누적 청구되기 때문입니다. 연장 결정을 내리기 전에 추가 누적액을 반드시 계산해 보아야 합니다.
-                </div>
-            </div>
-        </section>
+ <div class="faq-item">
+ <div class="faq-question">
+ Q. 연장(연타) 시 비용은 왜 처음보다 비싸게 느껴지나요?
+ <span>▼</span>
+ </div>
+ <div class="faq-answer">
+ 첫 세트에는 주류와 기본 안주가 할인된 가격으로 묶여 제공되지만, 연장 시에는 주류 추가가 강제되거나 할인율이 빠진 정상가 기준의 T/C와 룸비가 시간별로 누적 청구되기 때문입니다. 연장 결정을 내리기 전에 추가 누적액을 반드시 계산해 보아야 합니다.
+ </div>
+ </div>
+ </section>
 
-        <!-- Footer -->
-        <footer>
-            <div>
-                <p class="footer-brand">THE LEDGER — 유흥 이용 가이드</p>
-                <p style="margin-top: var(--spacing-unit);">본 플랫폼은 건전하고 투명한 정보 제공을 목적으로 하며, 불법적인 알선이나 중개를 엄격히 금지합니다.</p>
-            </div>
-            <div>
-                <p>© 2024 The Ledger. All Rights Reserved.</p>
-                <p style="margin-top: var(--spacing-unit); text-align: right;"><a href="https://paper.nrb-hwagok.xyz" style="color: var(--text-muted); text-decoration: none;">이용약관</a> | <a href="https://paper.nrb-hwagok.xyz" style="color: var(--text-muted); text-decoration: none;">개인정보처리방침</a></p>
-            </div>
-        </footer>
+ <!-- Footer -->
+ <footer>
+ <div>
+ <p class="footer-brand">THE LEDGER — 유흥 이용 가이드</p>
+ <p style="margin-top: var(--spacing-unit);">본 플랫폼은 건전하고 투명한 정보 제공을 목적으로 하며, 불법적인 알선이나 중개를 엄격히 금지합니다.</p>
+ </div>
+ <div>
+ <p>© 2024 The Ledger. All Rights Reserved.</p>
+ <p style="margin-top: var(--spacing-unit); text-align: right;"><a href="https://paper.nrb-hwagok.xyz" style="color: var(--text-muted); text-decoration: none;">이용약관</a> | <a href="https://paper.nrb-hwagok.xyz" style="color: var(--text-muted); text-decoration: none;">개인정보처리방침</a></p>
+ </div>
+ </footer>
 
-    </div>
+ </div>
 
-    <script>
-        function toggleMenu() {
-            var menu = document.getElementById('nav-menu');
-            menu.classList.toggle('active');
-        }
-    </script>
+ <script>
+ function toggleMenu() {
+ var menu = document.getElementById('nav-menu');
+ menu.classList.toggle('active');
+ }
+ </script>
 </body>
 </html>

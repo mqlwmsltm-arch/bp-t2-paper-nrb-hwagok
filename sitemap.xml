@@ -31,7 +31,17 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://paper.nrb-hwagok.xyz/posts/field_note-003-nmhonc.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://paper.nrb-hwagok.xyz/posts/field_note-005-1u1l4r0.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://paper.nrb-hwagok.xyz/posts/guide-002-1cw1g3i.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -56,6 +66,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://paper.nrb-hwagok.xyz/posts/major_compare-004-1rx89zn.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://paper.nrb-hwagok.xyz/posts/myth-001-iaijmz.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://paper.nrb-hwagok.xyz/posts/myth-003-kz5shd.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -72,6 +92,11 @@
   </url>
   <url>
     <loc>https://paper.nrb-hwagok.xyz/posts/qa-003-6sa4bv.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://paper.nrb-hwagok.xyz/posts/qa-005-1dgnr7j.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
